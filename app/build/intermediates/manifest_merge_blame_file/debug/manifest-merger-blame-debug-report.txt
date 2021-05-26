@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.data_calculator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/8dbd859d1cd89239b42e7382b4fc40d7/core-1.3.1/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.DataCalculator" >
+20-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:11:9-52
+21        <activity
+21-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:12:9-20:20
+22            android:name="com.example.data_calculator.SplashActivity"
+22-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:12:19-49
+23            android:theme="@style/Theme.DataCalculator.NoActionBar.SplashScreenTheme" >
+23-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:13:13-86
+24            <intent-filter>
+24-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:16:17-69
+25-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:18:17-77
+27-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:21:9-28:20
+31            android:name="com.example.data_calculator.MainActivity"
+31-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:22:13-41
+32            android:label="@string/app_name"
+32-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:23:13-45
+33            android:theme="@style/Theme.DataCalculator.NoActionBar" >
+33-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:24:13-68
+34            <intent-filter>
+34-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:25:13-27:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:16:17-69
+35-->/Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:16:25-66
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>
