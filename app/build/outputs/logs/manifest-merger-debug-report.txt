@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/5398c332bcdea5d804d3f8bbc2a4005c/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/0b040ae6fd7360855475a012c5af81a6/material-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/73327337a728e12c5c3cdecdb4b7e327/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/66b606266a9d3ed5c2b5fb1a465f6ad7/preference-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/44b21666f861b2b454523071d69d07d7/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/9f2230d4ed70680a067e8cacdd4d138f/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/082141e7a08ecc0568dc277abb6b2eb2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -42,25 +43,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Jberger/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/644567d122746ae95b6522d27232d273/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/d5bf5d996d4f8c184f67d9a87d8531c0/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/3fd5b4b866d23b43b0e15439a0ee99e7/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:3:5-42
 		INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:5:5-29:19
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:5:5-32:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/0b040ae6fd7360855475a012c5af81a6/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/0b040ae6fd7360855475a012c5af81a6/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/73327337a728e12c5c3cdecdb4b7e327/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -83,32 +84,38 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Jber
 		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:11:9-52
-activity#com.example.data_calculator.SplashActivity
-ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:12:9-20:20
-	android:theme
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:13:13-86
-	android:name
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:12:19-49
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:15:13-19:29
-action#android.intent.action.MAIN
-ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:16:17-69
-	android:name
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:16:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:18:17-77
-	android:name
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:18:27-74
-activity#com.example.data_calculator.MainActivity
-ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:21:9-28:20
+activity#com.example.data_calculator.SettingsActivity
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:12:9-14:72
 	android:label
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:23:13-45
-	android:theme
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:24:13-68
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:14:13-60
 	android:name
-		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:22:13-41
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:13:13-45
+activity#com.example.data_calculator.SplashActivity
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:theme
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:17:13-86
+	android:name
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:16:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.example.data_calculator.MainActivity
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:24:9-31:20
+	android:label
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:26:13-45
+	android:theme
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:27:13-68
+	android:name
+		ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN
-ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:25:13-27:29
+ADDED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml:28:13-30:29
 uses-sdk
 INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Jberger/AndroidStudioProjects/DataCalculator/app/src/main/AndroidManifest.xml
@@ -119,6 +126,8 @@ MERGED from [com.google.android.material:material:1.3.0] /Users/Jberger/.gradle/
 MERGED from [com.google.android.material:material:1.3.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/0b040ae6fd7360855475a012c5af81a6/material-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/73327337a728e12c5c3cdecdb4b7e327/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/73327337a728e12c5c3cdecdb4b7e327/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/66b606266a9d3ed5c2b5fb1a465f6ad7/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/66b606266a9d3ed5c2b5fb1a465f6ad7/preference-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/44b21666f861b2b454523071d69d07d7/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/44b21666f861b2b454523071d69d07d7/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/Jberger/.gradle/caches/transforms-2/files-2.1/9f2230d4ed70680a067e8cacdd4d138f/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41

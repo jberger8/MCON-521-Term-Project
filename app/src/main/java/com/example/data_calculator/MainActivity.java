@@ -1,5 +1,6 @@
 package com.example.data_calculator;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -70,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.action_settings:
+                Intent i = new Intent(MainActivity.this,
+                        SettingsActivity.class);
+
+                startActivity(i);
                 break;
         }
 
