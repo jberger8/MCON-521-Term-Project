@@ -1,14 +1,14 @@
+com/example/data_calculator/BuildConfig.java
+ com.example.data_calculator.BuildConfig
 com/example/data_calculator/Utils.java
  com.example.data_calculator.Utils
  com.example.data_calculator.Utils$1
-com/example/data_calculator/SettingsActivity.java
- com.example.data_calculator.SettingsActivity
- com.example.data_calculator.SettingsActivity$SettingsFragment
-com/example/data_calculator/BuildConfig.java
- com.example.data_calculator.BuildConfig
 com/example/data_calculator/SplashActivity.java
  com.example.data_calculator.SplashActivity
  com.example.data_calculator.SplashActivity$1
+com/example/data_calculator/SettingsActivity.java
+ com.example.data_calculator.SettingsActivity
+ com.example.data_calculator.SettingsActivity$SettingsFragment
 com/example/data_calculator/MainActivity.java
  com.example.data_calculator.MainActivity
  com.example.data_calculator.MainActivity$1

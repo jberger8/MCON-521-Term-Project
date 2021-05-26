@@ -65,6 +65,8 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array pref_unit_options
+array pref_unit_values
 array reply_entries
 array reply_values
 attr action
@@ -2448,6 +2450,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string copy
+string display_header
 string enter_your_friend_s_birthday
 string error_icon_content_description
 string expand_button_title
@@ -2514,6 +2517,10 @@ string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string next
+string night_mode_key
+string night_mode_off
+string night_mode_on
+string night_mode_title
 string not_set
 string password_toggle_content_description
 string path_password_eye
@@ -2531,6 +2538,7 @@ string summary_collapsed_preference_list
 string sync_header
 string sync_title
 string title_activity_settings
+string unit_key
 string v7_preference_off
 string v7_preference_on
 style AlertDialog_AppCompat

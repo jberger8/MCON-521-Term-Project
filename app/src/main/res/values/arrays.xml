@@ -9,4 +9,12 @@
         <item>reply</item>
         <item>reply_all</item>
     </string-array>
+    <string-array name="pref_unit_options">
+        <item>Days</item>
+        <item>Weeks</item>
+    </string-array>
+    <string-array name="pref_unit_values">
+        <item>Days</item>
+        <item>Weeks</item>
+    </string-array>
 </resources>

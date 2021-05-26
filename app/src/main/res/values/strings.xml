@@ -29,4 +29,10 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="night_mode_key">Night Mode</string>
+    <string name="display_header">Display</string>
+    <string name="night_mode_off">Never use Night/Dark Mode</string>
+    <string name="night_mode_on">Use Night/DarkMode</string>
+    <string name="night_mode_title">Night Mode</string>
+    <string name="unit_key">unit_key</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.data_calculator;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -9,6 +10,7 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.preference.ListPreference;
 
 import android.view.View;
 
@@ -18,10 +20,17 @@ import android.widget.CalendarView;
 
 import java.util.GregorianCalendar;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity<mContext> extends AppCompatActivity {
+    private static String unit ="Days";
     CalendarView calendarView;
     GregorianCalendar calendar = new GregorianCalendar();
     GregorianCalendar now = new GregorianCalendar();
+
+
+    public static void setUnit(String newStringValue) {
+        unit = newStringValue;
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,17 +51,30 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int timeDiff = getDays(calendar, now);
-                Snackbar.make(view, "Your friends birthday is in" + timeDiff + " days!", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Your friends birthday is in " + getUnitTimeDiff(), Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    private String getUnitTimeDiff() {
+        //get the time difference
+        int timeDiff = getDays(calendar, now);
+
+        //find  out what unit of measurement to divid by.. if days it 1 if weeks its 7
+        int unitDivide = (unit.equals("Days") ? 1 : 7);
+
+        timeDiff = (int) Math.floor(timeDiff/unitDivide);
+
+        String unitTimeDiff = timeDiff + " " + unit.toLowerCase();
+        return unitTimeDiff;
     }
 
     private void setupToolbar() {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -114,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt("year", calendar.get(calendar.YEAR));
         outState.putInt("month", calendar.get(calendar.MONTH));
         outState.putInt("day", calendar.get(calendar.DAY_OF_MONTH));
+        outState.putString("unit", unit);
     }
 
     @Override
@@ -126,6 +149,8 @@ public class MainActivity extends AppCompatActivity {
         int Day = savedInstanceState.getInt("day");
 
         calendar = new GregorianCalendar(Year, Month, Day);
+
+        unit = savedInstanceState.getString("unit");
 
     }
 
